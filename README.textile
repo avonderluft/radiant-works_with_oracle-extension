@@ -1,0 +1,33 @@
+h2. Works With Oracle
+
+Created by:  Andrew vonderLuft July 2009, in Portland Oregon
+
+Various patches and hacks to facilitate better compatibility with Oracle
+
+h2. Revision History
+
+* 1.0 - 8/2009 - initial release
+
+h2. Requirements
+
+* The activerecord-oracle_enhanced-adapter gem, version 1.2.0
+** "RubyForge Project":http://rubyforge.org/projects/oracle-enhanced/
+** "Github Wiki":http://wiki.github.com/rsim/oracle-enhanced
+** "Google Group":http://groups.google.com/group/oracle-enhanced
+** "Blog":http://blog.rayapps.com/category/oracle-enhanced/
+** "Bugs and Enhancement Requests":http://rsim.lighthouseapp.com/projects/11468-oracle-enhanced
+
+h2. Installation
+
+From your RADIANT_ROOT:
+
+<pre>
+$ script/extension install works_with_oracle
+</pre>
+
+Restart your radiant app, and you should be good to go.
+
+
+h2. Acknowledgments
+
+Oracle, for being such a pain, made this extension necessary
