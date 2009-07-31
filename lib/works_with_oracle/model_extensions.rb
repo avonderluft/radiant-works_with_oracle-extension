@@ -6,5 +6,5 @@ module WorksWithOracle::ModelExtensions
       named_scope :default, :order => "name"     
     end
   end
-  
+
 end
