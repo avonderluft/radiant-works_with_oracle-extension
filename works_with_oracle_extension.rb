@@ -6,8 +6,10 @@ class WorksWithOracleExtension < Radiant::Extension
   description "Various patches and hacks to facilitate better compatibility with Oracle"
   url "http://github.com/avonderluft/radiant-works_with_oracle-extension/tree"
   
-  extension_config do |config| 
-    config.gem 'activerecord-oracle_enhanced-adapter', :lib => false
+  unless Radiant::Version.to_s < '0.8.0'
+    extension_config do |config| 
+      config.gem 'activerecord-oracle_enhanced-adapter', :lib => false
+    end
   end
   
   def activate
